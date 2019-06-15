@@ -1,13 +1,43 @@
 {"request_id":"1","payload":{"user_id":"1",
 "devices":[
-{"id":"0","name":"Светильник","description":"","room":"Виртуальная","type":"devices.types.light","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},{"type":"devices.capabilities.color_setting","parameters":{"color_model":"hsv"}}]},
-{"id":"1","name":"Розетка","description":"","room":"Виртуальная","type":"devices.types.socket","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}]},
-{"id":"2","name":"Переключатель","description":"","room":"Виртуальная","type":"devices.types.switch","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}]},
-{"id":"3","name":"Водонагреватель","description":"","room":"Виртуальная","type":"devices.types.thermostat","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"temperature","unit":"unit.temperature.celsius","range":{"min":0,"max":100,"precision":1}}}]},
-{"id":"4","name":"Кондиционер","description":"","room":"Виртуальная","type":"devices.types.thermostat.ac","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"temperature","unit":"unit.temperature.celsius","range":{"min":0,"max":100,"precision":1}}}]},
-{"id":"5","name":"Медиаприставка","description":"","room":"Виртуальная","type":"devices.types.media_device","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},{"type":"devices.capabilities.toggle","retrievable":true,"parameters":{"instance":"mute"},"state":{"instance":"off","value":false}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"volume","range":{"min":1,"max":100,"precision":1}}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"channel"}}]},
-{"id":"6","name":"Телевизор","description":"","room":"Виртуальная","type":"devices.types.media_device.tv","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},{"type":"devices.capabilities.toggle","retrievable":true,"parameters":{"instance":"mute"},"state":{"instance":"off","value":false}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"channel"}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"volume","range":{"min":1,"max":100,"precision":1}}}]},
-{"id":"7","name":"Кофемашина","description":"","room":"Виртуальная","type":"devices.types.cooking","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}]},
-{"id":"8","name":"Чайник","description":"","room":"Виртуальная","type":"devices.types.cooking.kettle","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"temperature","unit":"unit.temperature.celsius","range":{"min":0,"max":100,"precision":1}}}]},
-{"id":"9","name":"Игрушка","description":"","room":"Виртуальная","type":"devices.types.other","capabilities":[{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}]}
+{"id":"0","name":"Светильник","description":"","room":"Виртуальная","type":"devices.types.light","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.color_setting","parameters":{"color_model":"hsv"}}
+	]},
+{"id":"1","name":"Розетка","description":"","room":"Виртуальная","type":"devices.types.socket","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}
+	]},
+{"id":"2","name":"Переключатель","description":"","room":"Виртуальная","type":"devices.types.switch","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}
+	]},
+{"id":"3","name":"Водонагреватель","description":"","room":"Виртуальная","type":"devices.types.thermostat","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"temperature","unit":"unit.temperature.celsius","range":{"min":0,"max":100,"precision":1}}}
+	]},
+{"id":"4","name":"Кондиционер","description":"","room":"Виртуальная","type":"devices.types.thermostat.ac","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"temperature","unit":"unit.temperature.celsius","range":{"min":0,"max":100,"precision":1}}}
+	]},
+{"id":"5","name":"Медиаприставка","description":"","room":"Виртуальная","type":"devices.types.media_device","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.toggle","retrievable":true,"parameters":{"instance":"mute"},"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"volume","range":{"min":1,"max":100,"precision":1}}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"channel"}}
+	]},
+{"id":"6","name":"Телевизор","description":"","room":"Виртуальная","type":"devices.types.media_device.tv","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.toggle","retrievable":true,"parameters":{"instance":"mute"},"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"channel"}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"volume","range":{"min":1,"max":100,"precision":1}}}
+	]},
+{"id":"7","name":"Кофемашина","description":"","room":"Виртуальная","type":"devices.types.cooking","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}
+	]},
+{"id":"8","name":"Чайник","description":"","room":"Виртуальная","type":"devices.types.cooking.kettle","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}},
+	{"type":"devices.capabilities.range","retrievable":true,"parameters":{"instance":"temperature","unit":"unit.temperature.celsius","range":{"min":0,"max":100,"precision":1}}}
+	]},
+{"id":"9","name":"Игрушка","description":"","room":"Виртуальная","type":"devices.types.other","capabilities":[
+	{"type":"devices.capabilities.on_off","retrievable":true,"parameters":null,"state":{"instance":"off","value":false}}
+	]}
 ]}}
