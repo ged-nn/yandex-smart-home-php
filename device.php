@@ -1,5 +1,7 @@
 <?php
 #https://demo.shome52.ru/provider/v1.0/user/devices
+#https://demo.shome52.ru/provider/v1.0/user/devices/query
+##https://demo.shome52.ru/auth
 # tcpdump -n -s 0 -A -i enp0s3 port 8088 > update_list.log
 # https://github.com/dmitry-k/yandex_smart_home/blob/master/capability.py
 
@@ -385,3 +387,4 @@ header('Content-Type: application/json; charset=utf-8');
 header("Content-Length: ".strlen($message));
 echo $message;
 
+exit;
